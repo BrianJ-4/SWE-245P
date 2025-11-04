@@ -11,12 +11,13 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 /* Style the header */
 header {
-  background-color: #333;
-  padding: 30px;
+  background-color: #1a1a1a;
+  padding: 50px 25px 50px 25px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -52,18 +53,50 @@ article {
   padding: 10px;
 }
 
+/* Articles container */
+.articles {
+  display: flex;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+/* Each article */
+article {
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 33%;
+}
+
+/* Added: Color styling for headings and paragraphs */
+h1 {
+  color: #004aad;
+}
+
+p {
+  color: #333366; 
+}
+
+footer p {
+     color: #ffffff; 
+}
+
 /* Style the footer */
 footer {
-  background-color: #555;
+  background-color: #1a1a1a;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
-/* Responsive layout */
+/* Responsive layout - makes the menu and the content (inside the section) 
+sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
   section {
-    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  .articles {
     flex-direction: column;
   }
 }
@@ -84,16 +117,30 @@ footer {
     </ul>
   </nav>
   
-  <article>
-    <h1>Porsche 911</h1>
-    <p>The Porsche 911 is one of the most recognizable and enduring sports cars in automotive history. First introduced in 1964, its distinctive design, rear-engine layout, and timeless silhouette have made it an icon of performance and style.</p>
-    <p>Over the decades, the 911 has evolved through numerous generations, combining precision German engineering with an unmistakable driving feel. It's a car that balances luxury, power, and heritage, remaining a benchmark for sports car excellence.</p>
-  </article>
+  <div class="articles">
+    <article>
+      <h1>Porsche 911</h1>
+      <p>The Porsche 911 is a timeless symbol of engineering excellence. Since 1964, it has redefined sports car performance with its rear-engine design and precise handling.</p>
+      <p>Its unmistakable shape and consistent innovation make it one of the most beloved cars in history, blending luxury and racing DNA seamlessly.</p>
+    </article>
+
+    <article>
+      <h1>Ford Mustang</h1>
+      <p>The Ford Mustang debuted in 1964 as America's original pony car. It combined style, performance, and affordability, capturing the spirit of freedom on the open road.</p>
+      <p>Over generations, it evolved into a global icon and a powerful yet accessible machine known for its aggressive stance and roaring V8 engines.</p>
+    </article>
+
+    <article>
+      <h1>Ferrari F40</h1>
+      <p>The Ferrari F40, launched in 1987, celebrated Ferrari's 40th anniversary and was the last car personally approved by Enzo Ferrari himself.</p>
+      <p>With its lightweight carbon-fiber body, twin-turbo V8, and raw driving experience, the F40 remains one of the most legendary supercars ever built.</p>
+    </article>
+  </div>
 </section>
 
 <footer>
-  <p>Created by Brian Joshua — 
-  <a href="https://github.com/BrianJ-4/SWE-245P" target="_blank" style="color:white;">GitHub Repository</a></p>
+  <p>Created by Brian Joshua: 
+  <a href="https://github.com/your-github-username" target="_blank" style="color:white;">GitHub Repository</a></p>
 </footer>
 
 </body>
