@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Iconic Cars</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #555;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Iconic Cars</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Porsche_911" target="_blank">Porsche 911</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Ford_Mustang" target="_blank">Ford Mustang</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Ferrari_F40" target="_blank">Ferrari F40</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Porsche 911</h1>
+    <p>The Porsche 911 is one of the most recognizable and enduring sports cars in automotive history. First introduced in 1964, its distinctive design, rear-engine layout, and timeless silhouette have made it an icon of performance and style.</p>
+    <p>Over the decades, the 911 has evolved through numerous generations, combining precision German engineering with an unmistakable driving feel. It's a car that balances luxury, power, and heritage, remaining a benchmark for sports car excellence.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Created by Brian Joshua — 
+  <a href="https://github.com/BrianJ-4/SWE-245P" target="_blank" style="color:white;">GitHub Repository</a></p>
+</footer>
+
+</body>
+</html>
