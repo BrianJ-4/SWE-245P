@@ -19,3 +19,13 @@ print_books_without_orwell()
 
 print_books_without_orwell_and_melville()
 
+// Part Two *************************************
+
+function change_color() {
+    document.getElementById("content").style.color = "blue";
+}
+
+function change_text() {
+    document.getElementById("content").innerHTML = "Bye-Bye World!"
+}
+
