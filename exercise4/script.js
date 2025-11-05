@@ -14,3 +14,8 @@ function print_books_without_orwell() {
 function print_books_without_orwell_and_melville() {
     console.log(books.filter((book) => book.author != "George Orwell" && book.author != "Herman Melville"));
 }
+
+print_books_without_orwell()
+
+print_books_without_orwell_and_melville()
+
