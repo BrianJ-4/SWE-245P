@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitioned Image Carousel</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1 class="title">Iconic Cars</h1>
+
+    <div class="carousel">
+        <div class="slide__container">
+            <!-- copy of third one -->
+            <img src="assets/f40.jpg" id="lastClone" />
+            <!-- normal slides -->
+            <img src="assets/911.jpg" />
+            <img src="assets/mustang.jpg" />
+            <img src="assets/f40.jpg" />
+            <!-- copy of first one -->
+            <img src="assets/911.jpg" id="firstClone" />
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="prevButton"><- Prev</button>
+        <button id="nextButton">Next -></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
