@@ -1,0 +1,20 @@
+.weather-main {
+  min-height: 100vh;
+  background-color: #0d1117;
+  color: #e6edf3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+.weather-main h1 {
+  margin-bottom: 16px;
+}
+
+.weather-main p {
+  margin: 0;
+  color: #9aa3b2;
+}
