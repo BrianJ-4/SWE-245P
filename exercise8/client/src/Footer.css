@@ -1,0 +1,23 @@
+.footer {
+  background-color: #161b22;
+  color: #e6edf3;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 15px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact {
+  color: #9aa3b2;
+  text-decoration: none;
+}
