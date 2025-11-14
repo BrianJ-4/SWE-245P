@@ -1,0 +1,46 @@
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  background-color: #0d1117;
+  color: white;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.projectRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.projectCard {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #11151c;
+  cursor: pointer;
+  color: rgb(117, 125, 133);
+}
+
+.projectCard:hover {
+  border: 1px solid rgb(10, 110, 250);
+  color: white;
+}
+
+.projectCard h2 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.projectCard p {
+  font-size: 14px;
+  margin: 0;
+}
