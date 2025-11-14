@@ -1,0 +1,24 @@
+Environment Description for Testing
+
+Browser:
+Microsoft Edge, Version 142.0.7444.136 (Official Build) (64-bit)
+
+Operating System:
+Windows 11
+
+Computer Architecture:
+64-bit
+
+Testing Approach
+
+To ensure that the web page works correctly for the majority of users, I would follow these steps:
+
+    Test the website in multiple modern browsers, including Microsoft Edge, Google Chrome, Mozilla Firefox, and Safari.
+
+    View the site on different types of devices such as desktop computers, laptops, tablets, and mobile phones to make sure the layout displays correctly.
+
+    Check the responsiveness of the design by resizing the browser window and using developer tools.
+
+    Use browser developer tools to check for console errors, slow-loading elements, and layout issues.
+
+    Test the website under different network speeds to confirm that images and resources load properly.
